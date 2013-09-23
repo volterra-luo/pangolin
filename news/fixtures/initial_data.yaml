@@ -1,0 +1,31 @@
+- model: news.staff
+  pk: 1
+  fields:
+    name: 夏原
+    birth_date: 1963-07-01
+    gender: M
+    img_url: "D:/mycode/pangolin/pangolin/news/static/news/photos/xiayuan.jpg"
+    email_address: "xia@imech.ac.cn"
+    office: "北京中关村北四环西路15号"
+    
+- model: news.staff
+  pk: 2
+  fields:
+    name: 李光
+    birth_date: 1972-10-01
+    gender: M
+    img_url: "D:/mycode/pangolin/pangolin/news/static/news/photos/liguang.jpg"
+    email_address: "lghit@imech.ac.cn"
+    office: "北京中关村北四环西路15号"
+    
+- model: news.article
+  pk: 1
+  fields:
+    title: 镀层工艺力学与摩擦学课题组取得重大突破
+    pub_date: 2013-10-01 00:00:00+0800
+    author: 1
+    content: 课题组成立于1998年，主要致力于提高金属材料表面性能及摩擦性能等相关领域的研究工作。早期，通过对稀土铝镀层组织演变及力学特性的研究，提出超声振动制备热浸稀土铝新方法.
+    
+              2001年，引进等离子体电解氧化(PEO)交变脉冲电源，开发了AOTOPED自动控制系统，实现了对电源的实时数据采集和自动反馈控制，开始铝合金陶瓷化方法的研究。
+              
+              2006年，成功研制了VCA-1型真空阴极弧离子镀设备，极限真空达10-4Pa，单弧源沉积Al层的速度超过40mm/hour.
