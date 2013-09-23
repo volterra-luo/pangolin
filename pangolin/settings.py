@@ -39,7 +39,7 @@ USE_TZ = True
 media_path = os.path.join(app_root,'static')
 MEDIA_ROOT = media_path
 
-MEDIA_URL = ''
+MEDIA_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
